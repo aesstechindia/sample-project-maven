@@ -1,21 +1,3 @@
-# web3j Sample Project
-
-This project provides a very simple starter application for working with web3j and the test 
-Ethereum network (testnet) known as Rinkeby.
-
-The demo deploys a *hello world* smart contract which contains a greeting message. The current 
-greeting message can be read and modified in the smart contract.  
-
-In order to run this demo, three pieces of information are required:
-
-1. Ethereum client (or node) endpoint. The simplest thing to do is 
-[request a free access token](https://infura.io/register.html) from Infura.
-2. A wallet file. This can be generated using the web3j 
-[command line tools](https://docs.web3j.io/command_line.html) by running the command:
-3.  Some Ether. This can be requested from the [Rinkeby Faucet](https://www.rinkeby.io/#faucet).
-
-- To create a wallet file, run the command:
-```aidl
 web3j wallet create
 ```
 
